@@ -2,12 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* color: rgba(62,62,62,255); */
 }
 
 .container{
     width: 100%;
     height: 100vh;
-    background-color: crimson;
+    background-color: rgba(236,67,108,255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,20 +18,20 @@
     width: 90%;
     height: 85vh;
     border-radius: 40px;
-    background-color: gainsboro;
+    /* background-color: gainsboro; */
 }
 
 .header{
     width: 100%;
     height: 10vh;
-    background-color: gray;
+    background-color: rgba(77,77,79,255);
     border-radius: 40px 40px 0 0;
 }
 
 .body{
     width: 100%;
     height: 75vh;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     border-radius: 0 0 40px 40px;
     display: flex;
     justify-content: center;
@@ -43,21 +44,92 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: rgba(62,62,62,255);
     border-radius: 0 0 0 40px;
 }
 
 .two{
     width: 50%;
     height: 75vh;   
-    background-color: aquamarine;
+    background-color: rgba(62,62,62,255);
+    /* background-color: #0e0d0d; */
     border-radius: 0 0 40px 0;
+    /* justify-content: flex-start; */
+    display: flex;
+    align-items: center;
+
+}
+
+form{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a{
+    margin: 5px;
+    background-color: transparent;
+    /* color: rgba(94,94,94,255); */
+    border: 0;
+    font-weight: 900;
+    font-size: 15px;
+    border-bottom: 2px solid rgba(94,94,94,255);
+}
+
+#big {
+    width: 80%;
+    height: 50%;
+}
+
+#small{
+    width: 80%;
+    height: 20%;
+}
+
+ .nice {
+    width: 80%;
+    height: 20%;
+    color: whitesmoke;
+    margin: 5px;
+    background-color: transparent;
+    color: rgba(94,94,94,255);
+    border: 0;
+    font-weight: 900;
+    font-size: 15px;
+    border-bottom: 2px solid rgba(94,94,94,255);
+}
+
+form div{
+    color: blue;
 }
 
 button{
+    float: left;
     text-decoration: none;
     border: none;
     background-color: transparent;
-    color: crimson;
-    font-size: 39px;
+    color: rgba(236,67,108,255);
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.large{
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 70%;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: rgba(236,67,108,255);
+    display: block;
+}
+
+.ope{
+    height: 90%;
+    width: 65%;
+    border-bottom: 2px solid rgba(94,94,94,255);
 }
